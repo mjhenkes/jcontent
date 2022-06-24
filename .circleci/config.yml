@@ -74,6 +74,8 @@ parameters:
 
 jobs:
   where-am-i:
+    docker:
+      - image: << parameters.base_image >>
     steps:
       - run:
         command: pwd
