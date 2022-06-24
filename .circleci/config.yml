@@ -86,7 +86,7 @@ jobs:
     docker:
       - image: << parameters.base_image >>
     steps:
-      - run: pwd
+      - run: pwd & ls -al
 
 workflows:
   # On code change is executed each time new code is pushed to a branch
