@@ -106,9 +106,11 @@ workflows:
       #       - jahia-modules-orb/initialize
             # - jahia-modules-orb/update-signature
       - where-am-i
+         requires:
+           - jahia-modules-orb/initialize
       - jahia-modules-orb/integration-tests-machine:
-          # requires:
-            # - jahia-modules-orb/build
+          requires:
+            - jahia-modules-orb/initialize
           context: QA_ENVIRONMENT
           jahia_image: << pipeline.parameters.JAHIA_IMAGE >>
           tests_manifest: << pipeline.parameters.TESTS_MANIFEST >>
