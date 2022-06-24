@@ -84,13 +84,13 @@ workflows:
         - << pipeline.parameters.IS_MANUAL_TESTRUN >>
     jobs:
       - jahia-modules-orb/initialize
-      - jahia-modules-orb/build:
-          context: QA_ENVIRONMENT
-          requires:
-            - jahia-modules-orb/initialize
+      # - jahia-modules-orb/build:
+      #     context: QA_ENVIRONMENT
+      #     requires:
+      #       - jahia-modules-orb/initialize
             # - jahia-modules-orb/update-signature
       - jahia-modules-orb/integration-tests-machine:
-          requires:
+          # requires:
             # - jahia-modules-orb/build
           context: QA_ENVIRONMENT
           jahia_image: << pipeline.parameters.JAHIA_IMAGE >>
