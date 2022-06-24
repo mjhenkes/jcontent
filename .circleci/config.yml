@@ -75,7 +75,8 @@ parameters:
 jobs:
   where-am-i:
     steps:
-      - run: pwd
+      - run:
+        command: pwd
 
 workflows:
   # On code change is executed each time new code is pushed to a branch
