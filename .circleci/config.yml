@@ -89,10 +89,10 @@ workflows:
       #     requires:
       #       - jahia-modules-orb/initialize
             # - jahia-modules-orb/update-signature
-      - where-am-i:
-       - steps:
+     - where-am-i:
+       steps:
         - run:
-          - command: pwd
+          command: pwd
       - jahia-modules-orb/integration-tests-machine:
           # requires:
             # - jahia-modules-orb/build
