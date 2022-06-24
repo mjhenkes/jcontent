@@ -72,6 +72,11 @@ parameters:
     type: boolean
     default: false
 
+jobs:
+  where-am-i:
+    steps:
+      - run: pwd
+
 workflows:
   # On code change is executed each time new code is pushed to a branch
   # Current project configuration in circleci only builds on PR + main, so effectively this is only being executed
@@ -89,6 +94,7 @@ workflows:
       #     requires:
       #       - jahia-modules-orb/initialize
             # - jahia-modules-orb/update-signature
+      - where-am-i
       - jahia-modules-orb/integration-tests-machine:
           # requires:
             # - jahia-modules-orb/build
