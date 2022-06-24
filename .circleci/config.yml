@@ -105,7 +105,7 @@ workflows:
       #     requires:
       #       - jahia-modules-orb/initialize
             # - jahia-modules-orb/update-signature
-      - where-am-i
+      - where-am-i:
          requires:
            - jahia-modules-orb/initialize
       - jahia-modules-orb/integration-tests-machine:
