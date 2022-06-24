@@ -74,6 +74,15 @@ parameters:
 
 jobs:
   where-am-i:
+  parameters:
+    working_directory:
+      type: string
+      default: "~/source"
+      description: "Working directory for the job"
+    base_image:
+      type: string
+      default: "cimg/openjdk:8.0.302-node"
+      description: "Base docker image to be used for running the job"
     docker:
       - image: << parameters.base_image >>
     steps:
