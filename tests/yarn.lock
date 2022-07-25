@@ -112,13 +112,13 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@jahia/cypress@^1.0.8":
-  version "1.1.3"
-  resolved "https://npm.jahia.com/@jahia%2fcypress/-/cypress-1.1.3.tgz#24654f060486d3093439806d7be769f1379d33ff"
-  integrity sha512-kx+D+X7Sg7UxxORBaH1rsDYeKy+kehl5Kig9+14itHNrAnOATqmaWptMZaq0ENtgvlIywohKouQy98SvyuXnRw==
+"@jahia/cypress@1.0.8":
+  version "1.0.8"
+  resolved "https://npm.jahia.com/@jahia%2fcypress/-/cypress-1.0.8.tgz#570582285fcd245e306e16449cc7e041e658a4dd"
+  integrity sha512-Sk5hQKBdJP1ojfKCgl8mDN18eKwt/o0supDzWgHnlPIp51vUXXeSzY+AXK4IkFTShP1Op1j8YRZF9hxSbrvsyg==
   dependencies:
     "@apollo/client" "^3.4.9"
-    cypress-terminal-report "^3.4.2"
+    cypress-terminal-report "^3.3.2"
     graphql "^15.5.0"
     graphql-tag "^2.11.0"
 
@@ -1029,7 +1029,7 @@ cypress-multi-reporters@^1.5.0:
     debug "^4.1.1"
     lodash "^4.17.15"
 
-cypress-terminal-report@^3.4.2:
+cypress-terminal-report@^3.3.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/cypress-terminal-report/-/cypress-terminal-report-3.5.2.tgz#fa4fbc6eca78d4f3db0a3dfc441fd1b98dcc110f"
   integrity sha512-06y4xTOnztyUOIwk3B+YoAYrK5DSwgCMZhUieUdU3EDXjIb4BgRs/wqPYbfCrH/N5/Yb9aV2hjO95pjzEClwqQ==
