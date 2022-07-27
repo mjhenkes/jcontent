@@ -1,5 +1,7 @@
 FROM cypress/base:16.5.0
 
+ENV CYPRESS_INSTALL_BINARY=https://cdn.cypress.io/beta/binary/8.5.1/darwin-x64/circle-matth/fix/hang-investigation-5de30daa2d45fce9296fd1c9f91d6677b1eb6cf3/cypress.zip
+
 RUN apt-get update && apt-get install -y jq
 
 RUN adduser --disabled-password jahians
