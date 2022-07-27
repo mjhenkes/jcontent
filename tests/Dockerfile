@@ -1,6 +1,6 @@
 FROM cypress/base:16.5.0
 
-ENV CYPRESS_INSTALL_BINARY=https://cdn.cypress.io/beta/binary/8.6.0/linux-x64/circle-matth/fix/hang-investigation-d5c41e8a00cbebc9faf47eb86c6f04cd1a837928/cypress.zip
+ENV CYPRESS_INSTALL_BINARY=https://cdn.cypress.io/beta/binary/8.6.0/linux-x64/circle-matth/fix/hang-investigation-9915ec0a196e2258176192cfecc25b1d9ebe1023/cypress.zip
 
 RUN apt-get update && apt-get install -y jq
 
