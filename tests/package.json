@@ -16,7 +16,7 @@
     "@jahia/cypress": "1.0.8",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
-    "cypress": "https://cdn.cypress.io/beta/npm/8.6.0/circle-matth/fix/hang-investigation-df068becc10b7715b611eb8730c4d5b2f2b3fd5c/cypress.tgz",
+    "cypress": "https://cdn.cypress.io/beta/npm/8.6.0/circle-matth/fix/hang-investigation-063128b177566301241ed87f5b7dbcc2e28b6959/cypress.tgz",
     "cypress-multi-reporters": "^1.5.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",

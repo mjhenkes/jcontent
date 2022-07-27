@@ -1040,9 +1040,9 @@ cypress-terminal-report@^3.3.2:
     semver "^7.3.5"
     tv4 "^1.3.0"
 
-"cypress@https://cdn.cypress.io/beta/npm/8.6.0/circle-matth/fix/hang-investigation-df068becc10b7715b611eb8730c4d5b2f2b3fd5c/cypress.tgz":
+"cypress@https://cdn.cypress.io/beta/npm/8.6.0/circle-matth/fix/hang-investigation-063128b177566301241ed87f5b7dbcc2e28b6959/cypress.tgz":
   version "8.6.0"
-  resolved "https://cdn.cypress.io/beta/npm/8.6.0/circle-matth/fix/hang-investigation-df068becc10b7715b611eb8730c4d5b2f2b3fd5c/cypress.tgz#f046548884b579632be60700cb80b07ec23ffa73"
+  resolved "https://cdn.cypress.io/beta/npm/8.6.0/circle-matth/fix/hang-investigation-063128b177566301241ed87f5b7dbcc2e28b6959/cypress.tgz#b5f725caabc262fb737df06c6ebe1ff386ea3174"
   dependencies:
     "@cypress/request" "^2.88.6"
     "@cypress/xvfb" "^1.2.4"
