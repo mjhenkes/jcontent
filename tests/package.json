@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "instrument": "nyc instrument --compact=false cypress instrumented",
-    "e2e:ci:derp": "cypress run",
-    "e2e:ci": "DEBUG=cypress* cypress run",
+    "e2e:ci": "cypress run",
+    "e2e:ci:debug": "DEBUG=cypress* cypress run",
     "e2e:debug": "cypress open",
     "lint": "eslint . -c .eslintrc.json --ext .ts",
     "report:merge": "mochawesome-merge results/reports/cypress*.json > results/reports/report.json && rm results/reports/cypress*.json",
